@@ -1,0 +1,74 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Cruz Sanchez\\RiderProjects\\ChuckNorrisJokeApp\\ChuckNorrisJokeApp\\ChuckNorrisJokeApp.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Cruz Sanchez\\RiderProjects\\ChuckNorrisJokeApp\\ChuckNorrisJokeApp\\ChuckNorrisJokeApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Cruz Sanchez\\RiderProjects\\ChuckNorrisJokeApp\\ChuckNorrisJokeApp\\ChuckNorrisJokeApp.csproj",
+        "projectName": "ChuckNorrisJokeApp",
+        "projectPath": "C:\\Users\\Cruz Sanchez\\RiderProjects\\ChuckNorrisJokeApp\\ChuckNorrisJokeApp\\ChuckNorrisJokeApp.csproj",
+        "packagesPath": "C:\\Users\\Cruz Sanchez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Cruz Sanchez\\RiderProjects\\ChuckNorrisJokeApp\\ChuckNorrisJokeApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Cruz Sanchez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Users\\Cruz Sanchez\\AppData\\Local\\NuGet\\v3-cache\\670c1461c29885f9aa22c281d8b7da90845b38e4$ps_api.nuget.org_v3_index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

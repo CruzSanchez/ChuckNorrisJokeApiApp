@@ -1,0 +1,14 @@
+C:\Users\Cruz Sanchez\RiderProjects\ChuckNorrisJokeApp\ChuckNorrisJokeApp\bin\Debug\net8.0\ChuckNorrisJokeApp.exe
+C:\Users\Cruz Sanchez\RiderProjects\ChuckNorrisJokeApp\ChuckNorrisJokeApp\bin\Debug\net8.0\ChuckNorrisJokeApp.deps.json
+C:\Users\Cruz Sanchez\RiderProjects\ChuckNorrisJokeApp\ChuckNorrisJokeApp\bin\Debug\net8.0\ChuckNorrisJokeApp.runtimeconfig.json
+C:\Users\Cruz Sanchez\RiderProjects\ChuckNorrisJokeApp\ChuckNorrisJokeApp\bin\Debug\net8.0\ChuckNorrisJokeApp.dll
+C:\Users\Cruz Sanchez\RiderProjects\ChuckNorrisJokeApp\ChuckNorrisJokeApp\bin\Debug\net8.0\ChuckNorrisJokeApp.pdb
+C:\Users\Cruz Sanchez\RiderProjects\ChuckNorrisJokeApp\ChuckNorrisJokeApp\obj\Debug\net8.0\ChuckNorrisJokeApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cruz Sanchez\RiderProjects\ChuckNorrisJokeApp\ChuckNorrisJokeApp\obj\Debug\net8.0\ChuckNorrisJokeApp.AssemblyInfoInputs.cache
+C:\Users\Cruz Sanchez\RiderProjects\ChuckNorrisJokeApp\ChuckNorrisJokeApp\obj\Debug\net8.0\ChuckNorrisJokeApp.AssemblyInfo.cs
+C:\Users\Cruz Sanchez\RiderProjects\ChuckNorrisJokeApp\ChuckNorrisJokeApp\obj\Debug\net8.0\ChuckNorrisJokeApp.csproj.CoreCompileInputs.cache
+C:\Users\Cruz Sanchez\RiderProjects\ChuckNorrisJokeApp\ChuckNorrisJokeApp\obj\Debug\net8.0\ChuckNorrisJokeApp.dll
+C:\Users\Cruz Sanchez\RiderProjects\ChuckNorrisJokeApp\ChuckNorrisJokeApp\obj\Debug\net8.0\refint\ChuckNorrisJokeApp.dll
+C:\Users\Cruz Sanchez\RiderProjects\ChuckNorrisJokeApp\ChuckNorrisJokeApp\obj\Debug\net8.0\ChuckNorrisJokeApp.pdb
+C:\Users\Cruz Sanchez\RiderProjects\ChuckNorrisJokeApp\ChuckNorrisJokeApp\obj\Debug\net8.0\ChuckNorrisJokeApp.genruntimeconfig.cache
+C:\Users\Cruz Sanchez\RiderProjects\ChuckNorrisJokeApp\ChuckNorrisJokeApp\obj\Debug\net8.0\ref\ChuckNorrisJokeApp.dll
