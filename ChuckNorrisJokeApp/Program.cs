@@ -8,51 +8,39 @@ class Program
 {
     static void Main(string[] args)
     {
-        var joke = GetJokeFromApi();
-        
-        ConsoleLogging.PassMessageToUser(joke.Value, StatusCode.Information);
+        JsonFileDataAccess dataAccess = new JsonFileDataAccess();
+        var jokes = dataAccess.LoadJokes();
 
+        JokeModel joke = null;
+        
+        for (int i = 0; i < 5; i++)
+        {
+            joke = ApiService.GetChuckNorrisJoke();
+        
+            jokes.Add(joke);
+        }
+        
+        dataAccess.SaveJokes(jokes);
+        ConsoleLogging.PassMessageToUser(joke.Value, StatusCode.Information);
+        
         ConsoleLogging.PassMessageToUser("Press 1 to translate to Yoda Speech", StatusCode.Information);
         ConsoleLogging.PassMessageToUser("Press 2 to translate to Sith Speech", StatusCode.Information);
-
+        
         var keyPressed = Console.ReadKey(true);
-
+        
         string translatedJoke = string.Empty;
         
         switch (keyPressed.Key)
         {
             case ConsoleKey.D1:
-                translatedJoke = TranslateJokeToStarwarsCharacterSpeech(joke.Value, "yoda");
+                translatedJoke = ApiService.TranslateJokeToStarwarsCharacterSpeech(joke.Value, "yoda");
                 ConsoleLogging.PassMessageToUser(translatedJoke, StatusCode.Success);
                 break;
                 
             case ConsoleKey.D2:
-                translatedJoke = TranslateJokeToStarwarsCharacterSpeech(joke.Value, "sith");
+                translatedJoke = ApiService.TranslateJokeToStarwarsCharacterSpeech(joke.Value, "sith");
                 ConsoleLogging.PassMessageToUser(translatedJoke, StatusCode.Failure);
                 break;
-        }
-    }
-
-    private static JokeModel? GetJokeFromApi()
-    {
-        using (HttpClient client = new HttpClient()) // "Using Statement"
-        {
-            var response = client.GetStringAsync("https://api.chucknorris.io/jokes/random").Result;
-        
-            JokeModel joke = JsonSerializer.Deserialize<JokeModel>(response);
-            return joke;
-        }
-    }
-
-    private static string TranslateJokeToStarwarsCharacterSpeech(string jokeText, string starwarsCharacter)
-    {
-        using (HttpClient client = new HttpClient())
-        {
-            var response = client.GetStringAsync($"https://api.funtranslations.com/translate/{starwarsCharacter}.json?text={jokeText}").Result;
-        
-            Root? translatedJokeObject = JsonSerializer.Deserialize<Root>(response);
-
-            return translatedJokeObject.Contents.Translated;
         }
     }
 }

@@ -12,3 +12,4 @@ C:\Users\Cruz Sanchez\RiderProjects\ChuckNorrisJokeApp\ChuckNorrisJokeApp\obj\De
 C:\Users\Cruz Sanchez\RiderProjects\ChuckNorrisJokeApp\ChuckNorrisJokeApp\obj\Debug\net8.0\ChuckNorrisJokeApp.pdb
 C:\Users\Cruz Sanchez\RiderProjects\ChuckNorrisJokeApp\ChuckNorrisJokeApp\obj\Debug\net8.0\ChuckNorrisJokeApp.genruntimeconfig.cache
 C:\Users\Cruz Sanchez\RiderProjects\ChuckNorrisJokeApp\ChuckNorrisJokeApp\obj\Debug\net8.0\ref\ChuckNorrisJokeApp.dll
+C:\Users\Cruz Sanchez\RiderProjects\ChuckNorrisJokeApp\ChuckNorrisJokeApp\obj\Debug\net8.0\ChuckNorrisJokeApp.sourcelink.json
